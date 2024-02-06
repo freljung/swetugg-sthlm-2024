@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "AwesomeView";
+}
+
+<h2>AwesomeView</h2>
+
+@using (Html.BeginForm("Do", "Awesome", FormMethod.Post, new { id = "logoutForm" }))
+{
+@Html.AntiForgeryToken()
+<ul class="nav nav-pills">
+    <li role="presentation">
+       @User.Identity.Name, you are awesome!
+    </li>
+    <li role="presentation">
+        <a href="javascript:document.getElementById('DoAwesomeStuff').submit()">Do Awesome Stuff</a>
+    </li>
+</ul>
+}

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheatSheet.ASPNET", "CheatSheet.ASPNET\CheatSheet.ASPNET.csproj", "{C06FA3F6-5E29-41A4-B69A-C6B593991C5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheatSheet.ASPNET.Core", "CheatSheet.ASPNET.Core\CheatSheet.ASPNET.Core.csproj", "{416F73E1-B9BF-4174-BB60-32684FD85C84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97B65A0F-0C6A-4FB4-A16C-FA25E9A099EE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\top10.md = ..\..\top10.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06FA3F6-5E29-41A4-B69A-C6B593991C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06FA3F6-5E29-41A4-B69A-C6B593991C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06FA3F6-5E29-41A4-B69A-C6B593991C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06FA3F6-5E29-41A4-B69A-C6B593991C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416F73E1-B9BF-4174-BB60-32684FD85C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416F73E1-B9BF-4174-BB60-32684FD85C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416F73E1-B9BF-4174-BB60-32684FD85C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416F73E1-B9BF-4174-BB60-32684FD85C84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4C1E9DD-BC61-4011-89C0-D83EED8622E7}
+	EndGlobalSection
+EndGlobal
