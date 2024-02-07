@@ -7,7 +7,7 @@ their intented permissions
 
 
 ## A02:2021 Cryptographic Failures
-Failed encrpyption including no encryption, of sensitive
+Failed encrpyption, including no encryption, of sensitive
 data, at rest or in transit, that is while it stored or
 while it’s transmitted
 
